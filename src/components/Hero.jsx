@@ -5,10 +5,10 @@ function Hero() {
     <div className="hero">
       <img className="hero--image" src={photoGrid} alt="photo grid" />
       <h1 className="hero--title">Online Experiences</h1>
-      <h2 className="hero--subtitle">
+      <p className="hero--subtitle">
         Join unique interactive activities led by one-of-a-kind hosts—all
         without leaving home.
-      </h2>
+      </p>
     </div>
   );
 }
