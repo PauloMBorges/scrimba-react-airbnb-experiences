@@ -51,6 +51,7 @@ header {
   flex-wrap: nowrap;
   gap: 20px;
   overflow-x: auto;
+  padding: 20px;
 }
 
 .card {
