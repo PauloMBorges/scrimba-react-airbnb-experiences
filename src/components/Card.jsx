@@ -1,4 +1,5 @@
 import star from "../assets/star.png";
+import images from '../assets/images';
 
 function Card(props) {
   let badgeText;
@@ -12,7 +13,7 @@ function Card(props) {
     <div className="card">
       {badgeText && <div className="card--badge">{badgeText}</div>}
       <img
-        src={`/src/assets/${props.card.coverImg}`}
+        src={images[props.card.coverImg]}
         className="card--image"
         alt={props.card.alt}
       />
