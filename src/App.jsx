@@ -8,14 +8,7 @@ function App() {
     return (
       <Card
         key={card.id}
-        img={card.coverImg}
-        alt={card.alt}
-        rating={card.stats.rating}
-        reviewCount={card.stats.reviewCount}
-        location={card.location}
-        title={card.title}
-        price={card.price}
-        openSpots={card.openSpots}
+        card={card}
       />
     );
   });
