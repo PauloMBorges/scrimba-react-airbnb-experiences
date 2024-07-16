@@ -9,6 +9,7 @@ function App() {
       <Card
         key={card.id}
         img={card.coverImg}
+        alt={card.alt}
         rating={card.stats.rating}
         reviewCount={card.stats.reviewCount}
         location={card.location}
