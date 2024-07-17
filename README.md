@@ -14,4 +14,4 @@ reusable componentes and a better understanding of how to pass data between comp
 
 ## Website Link
 
-Visit the live website [here](https://paulomborges.github.io/scrimba-react-airbnb-experiences-clone).
+Visit the live website [here](https://paulomborges.github.io/scrimba-react-airbnb-experiences).
